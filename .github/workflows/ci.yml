@@ -12,6 +12,7 @@ jobs:
       - name: Compile documents
         uses: xu-cheng/latex-action@v2
         with:
+          working_directory: ./src
           root_file: |
             abbreviations.tex
             citations.tex
