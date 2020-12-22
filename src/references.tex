@@ -1,0 +1,40 @@
+\documentclass{article}
+
+\usepackage{booktabs}
+\usepackage[capitalize]{cleveref}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Equations}
+\Cref{eq:maxwell} shows something important. 
+\begin{equation}
+    \nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0} \label{eq:maxwell}
+\end{equation}
+
+\section{Figures}
+A dummy image is depicted in \cref{fig:example}.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{example-image}
+    \caption{
+        My Figure!
+    }\label{fig:example}
+\end{figure}
+
+\section{Tables}
+\Cref{tab:foo} shows nonsense.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{cc}
+        \toprule
+        Foo & bar \\
+        \midrule
+        Boo & far \\
+        \bottomrule
+    \end{tabular}
+    \caption{
+        Some random table.
+    }\label{tab:foo}
+\end{table}
+\end{document}

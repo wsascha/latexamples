@@ -1,0 +1,36 @@
+\documentclass{article}
+
+\usepackage{booktabs}
+\usepackage{siunitx}
+
+\DeclareSIUnit{\bit}{bit}
+
+\begin{document}
+
+Numbers with exponent: \num{1e-18}, \num{1e38}
+
+Ranges: \SIrange{0.1}{10}{\nano\metre}, \SIrange{1.7}{23}{\ms}
+
+Custom unit: \SI{10}{\bit}
+
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{
+            c
+            S[table-format=2.2]
+        }
+        \toprule
+        Measurement & {Length / \si{\cm}} \\
+        \midrule
+        1           & 15.3                \\
+        2           & 1.2                 \\
+        3           & 7.34                \\
+        \bottomrule
+    \end{tabular}
+    \caption{
+        A table of measurements.
+    }\label{tab:measurements}
+\end{table}
+
+\end{document}

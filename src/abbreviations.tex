@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage{acro}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlecaps}
+
+\acsetup{
+    format/list=\titlecap,
+    make-links,
+    use-id-as-short,
+    pages/display=all,
+}
+
+\DeclareAcronym{MWE}{
+    long = minimal working example
+}
+
+\begin{document}
+
+\section{\Aclp*{MWE}}
+
+This is a nice \ac{MWE}.
+\Acp{MWE} are helpful for debugging.
+
+\pagebreak
+\printacronyms[name={My Acronyms}]
+
+\end{document}
