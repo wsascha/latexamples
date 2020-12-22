@@ -1,6 +1,8 @@
 # latexamples
 A small list of usage examples that may help when writing scientific articles or theses with LaTeX.
 
+![CI](https://github.com/wsascha/latexamples/workflows/CI/badge.svg)
+
 ## What's Inside?
 
 You can find links to MWEs on a topic, corresponding package documentation and its completeness in the table below.
