@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage{phfparen}
+
+\begin{document}
+
+Write parentheses with the backtick (`) character.
+\begin{align*}
+    `*(1)                                       &  & `*[1]                                       &  & `*{1}                                       &  & `*<1>                                       \\
+    `*(\frac{1}{2})                             &  & `*[\frac{1}{2}]                             &  & `*{\frac{1}{2}}                             &  & `*<\frac{1}{2}>                             \\
+    `*(\frac{1}{2 + \frac{1}{2}})               &  & `*[\frac{1}{2 + \frac{1}{2}}]               &  & `*{\frac{1}{2 + \frac{1}{2}}}               &  & `*<\frac{1}{2 + \frac{1}{2}}>               \\
+    `*(\frac{1}{2 + \frac{1}{2 + \frac{1}{2}}}) &  & `*[\frac{1}{2 + \frac{1}{2 + \frac{1}{2}}}] &  & `*{\frac{1}{2 + \frac{1}{2 + \frac{1}{2}}}} &  & `*<\frac{1}{2 + \frac{1}{2 + \frac{1}{2}}}> \\
+\end{align*}
+
+Same for inline math: \( `*(1) \), \( `*(\frac{1}{2}) \), \( `*[\frac{1}{2}] \), \( `*{\frac{1}{2}} \), \( `*<\frac{1}{2}> \)
+
+If you need small braces, write without asterisk, e.g.~\( `(\frac{1}{2 + \frac{1}{2}}) \)
+
+\end{document}

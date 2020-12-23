@@ -1,7 +1,7 @@
+![Build](https://github.com/wsascha/latexamples/workflows/Build/badge.svg)
+
 # latexamples
 A small list of usage examples that may help when writing scientific articles or theses with LaTeX.
-
-![CI](https://github.com/wsascha/latexamples/workflows/CI/badge.svg)
 
 ## What's Inside?
 
@@ -15,6 +15,7 @@ As this is a WIP, more examples are about to come.
 | [Abbreviations / acronyms](src/abbreviations.tex)                  |     [acro](http://mirrors.ctan.org/macros/latex/contrib/acro/acro-manual.pdf)      | &#9745; |
 | Nice plots                                                         | [pgfplots](http://mirrors.ctan.org/graphics/pgf/contrib/pgfplots/doc/pgfplots.pdf) | &#9744; |
 | [Units](src/units.tex)                                             |  [siunitx](https://ftp.gwdg.de/pub/ctan/macros/latex/contrib/siunitx/siunitx.pdf)  | &#9745; |
+| [Typesetting parentheses](src/parentheses.tex)                     |   [phfparen](http://mirrors.ctan.org/macros/latex/contrib/phfparen/phfparen.pdf)   | &#9745; |
 
 
 ## Why?
