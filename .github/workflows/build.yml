@@ -1,0 +1,27 @@
+name: Build
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Compile documents
+        uses: xu-cheng/latex-action@v2
+        with:
+          working_directory: ./src
+          root_file: |
+            abbreviations.tex
+            citations.tex
+            parentheses.tex
+            references.tex
+            units.tex
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: pdfs
+          path: src/*.pdf
