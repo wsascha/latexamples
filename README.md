@@ -3,10 +3,7 @@
 # latexamples
 A small list of usage examples that may help when writing scientific articles or theses with LaTeX.
 
-![CI](https://github.com/wsascha/latexamples/workflows/CI/badge.svg)
-
 ## What's Inside?
-
 You can find links to MWEs on a topic, corresponding package documentation and its completeness in the table below.
 As this is a WIP, more examples are about to come.
 
@@ -18,7 +15,6 @@ As this is a WIP, more examples are about to come.
 | Nice plots                                                         | [pgfplots](http://mirrors.ctan.org/graphics/pgf/contrib/pgfplots/doc/pgfplots.pdf) | &#9744; |
 | [Units](src/units.tex)                                             |  [siunitx](https://ftp.gwdg.de/pub/ctan/macros/latex/contrib/siunitx/siunitx.pdf)  | &#9745; |
 | [Typesetting parentheses](src/parentheses.tex)                     |   [phfparen](http://mirrors.ctan.org/macros/latex/contrib/phfparen/phfparen.pdf)   | &#9745; |
-
 
 ## Why?
 This package was intended as a lookup for colleagues, students and me.
