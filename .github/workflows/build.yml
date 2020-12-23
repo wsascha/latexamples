@@ -13,7 +13,12 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           working_directory: ./src
-          root_file: ./*.tex
+          root_file: |
+            abbreviations.tex
+            citations.tex
+            parentheses.tex
+            references.tex
+            units.tex
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
